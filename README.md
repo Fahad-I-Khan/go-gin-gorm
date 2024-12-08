@@ -2,13 +2,24 @@
 This is a simple API for managing users using the **Gin** web framework, **GORM** ORM, **PostgreSQL** for database storage, and Swagger for API documentation. The project is containerized using Docker for easy deployment and isolated environments.
 
 ## Table of Contents
-1. [Technologies Used](#technologies-used)
-2. [Features](#features)
-3. [Setup Instructions](#setup-instructions)
-4. [Endpoints](#endpoints)
-5. [Code Explanation (main.go)](#code-explanation-maingo)
-6. [Handlers Explanation](#handlers-explanation)
-6. [Access Swagger UI](#access-swagger-ui)
+
+1. [Tech Stack & Tools](#tech-stack--tools)
+2. [Technologies Used](#technologies-used)
+3. [Features](#features)
+4. [Setup Instructions](#setup-instructions)
+5. [Endpoints](#endpoints)
+6. [Code Explanation (main.go)](#code-explanation-maingo)
+7. [Handlers Explanation](#handlers-explanation)
+8. [Access Swagger UI](#access-swagger-ui)
+
+## Tech Stack & Tools
+
+![Go](https://img.shields.io/badge/Language-Go-blue) ![Gin](https://img.shields.io/badge/Framework-Gin-brightgreen) ![GORM](https://img.shields.io/badge/ORM-GORM-blue) ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blue) ![Swagger](https://img.shields.io/badge/API-Swagger-orange) ![Docker](https://img.shields.io/badge/Docker-Enabled-blue) ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-Used-blueviolet)
+
+## Description
+
+This project is a RESTful API built using **Go** and **Gin** framework, connected to a **PostgreSQL** database via **GORM** ORM. The API documentation is powered by **Swagger**, and the project is containerized using **Docker** and **Docker Compose** for seamless deployment.
+
 
 ## Technologies Used
 - **Go (Golang)**: A statically typed, compiled programming language used to implement the backend API.
