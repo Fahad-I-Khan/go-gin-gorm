@@ -90,7 +90,7 @@ go mod tidy
 swag init
 ```
 
-This command scans your Go code and generates the Swagger documentation in the `docs` folder. You need to run s`wag init` every time you modify your API routes or comments.
+This command scans your Go code and generates the Swagger documentation in the `docs` folder. You need to run `swag init` every time you modify your API routes or comments.
 
 ## Stopping the Application
 To stop the application, use the following command:
